@@ -8,6 +8,14 @@ img {
     width: 400px;
 }
 
-title {
-    text-align: center;
+.subsection.header {
+    color: red;
+}
+
+.subsection#preview {
+    color:blue;
+}
+
+body {
+    background-color:rgba(99, 94, 94, 0.884);
 }

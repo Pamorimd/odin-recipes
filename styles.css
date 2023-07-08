@@ -6,16 +6,21 @@
 img {
     height: auto;
     width: 400px;
+    padding: 30px;
 }
 
 .subsection.header {
     color: red;
 }
 
-.subsection#preview {
-    color:blue;
+#preview {
+    color:rgb(103, 103, 145);
 }
 
 body {
-    background-color:rgba(99, 94, 94, 0.884);
+    color: white;
+    background-color: rgb(27, 26, 26);
+    margin: 100px;
+    border: 400px;
 }
+

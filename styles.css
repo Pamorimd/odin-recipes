@@ -10,7 +10,8 @@ img {
 }
 
 .subsection.header {
-    color: red;
+    color: rgb(185, 0, 0);
+    font-size: 20px;
 }
 
 #preview {
@@ -20,10 +21,10 @@ img {
 body {
     color: rgb(255, 255, 255);
     background-color: rgb(88, 80, 80);
-    margin: 1rem;
     padding: 1rem;
     max-width: 1000px;
     margin: auto;
+    font-size: 18px;
 }
 
 .module {
@@ -54,10 +55,61 @@ div {
     background-color:#6a6b6b
 }
 
+.main-content:active {
+    transform: scale(0.100);
+}
+
 .contact-me {
     background-color: #050505;
 }
 
 .highlight {
-    background-color: rgb(170, 170, 36);
+    background-color: rgb(105, 105, 45);
 }
+
+.container {
+    height: 120px;
+    padding: 16px;
+    background: plum;
+    border: 4px inset indigo;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 19px;
+    width: 350px;
+}
+
+.item {
+    width: 60px;
+    height: 60px;
+    border: 4px solid darkslategray;
+    background: skyblue;
+    align-self: flex-end;
+}
+
+button {
+    color: #fff;
+    padding: 8px 22px;
+    border-radius: 6px;
+    background: #7d2ae8;
+    transition: all 0.2s ease;
+    width: 200px;
+    height: 70px;
+}
+
+button:active {
+    transform: scale(0.300);
+}
+
+.wrapper {
+    display:flex;
+}
+
+.wrapper input[type="text"] {
+    flex: 1 1 auto;
+}
+
+label {
+    color: rgb(211, 205, 205);
+}
+
